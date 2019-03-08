@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=B612" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Search page</title>
   </head>
   <body>
+    <div id="logo">SearchIT</div>
     <div class="searchbox">
-      <span>
-  	    <input id="mysearch" type="search" placeholder="Type..."></input>
-      </span>
-      <span>
-        <button type="submit" id="search-button">Search</button>
-      </span>
+        <input id="search-field" type="search" placeholder="Type..."></input>
+        <button class="icon"><i class="material-icons"></i></button>
     </div>
-    <div>
-      <button type="submit" id="help">Help me!</button>
-    </div>
-    <div>
-      <button type="reset" id="reset-all">Try again</button>
+    <!--buttons block-->
+    <div class="under-bar">
+        <button type="submit" id="help">Help me!</button>
+        <button type="reset" id="reset">Try again</button>
     </div>
   </body>
 </html>
